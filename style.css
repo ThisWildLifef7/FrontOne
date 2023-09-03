@@ -1,0 +1,107 @@
+:root{
+    --coloFondo: #f0ddcd;
+    --colorTheme: #3D8169;
+    --colorText: #ADAEB7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--coloFondo);
+}
+
+.main {
+    display: grid;
+    place-content: center;
+    height: 95vh;
+}
+
+.fond-img {
+    width: 90%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 45rem;
+    height: 30rem;
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box-right {
+    width: 23rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.up-info {
+    color: var(--colorText);
+}
+.parr {
+    width: 17rem;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Secular One', sans-serif;
+}
+
+.parrafito {
+    width: 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.parrafito h3:nth-child(1){
+    font-size: 35px;
+    color: var(--colorTheme);
+}
+.parrafito h3:nth-child(2){
+    font-size: 20px;
+    color: #ADAEB7;
+    text-decoration: line-through;
+}
+
+.button {
+    width: 100%;
+    height: 2.8rem;
+    background-color: var(--colorTheme);
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button img {
+    margin-right: 7px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h1 {
+    width: 20rem;
+    font-size: 2.9rem;
+    margin: 7px 0 5px 0;
+    font-weight: lighter;
+    line-height: 50px;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+}
+h2 {
+    letter-spacing: 5px;
+}
